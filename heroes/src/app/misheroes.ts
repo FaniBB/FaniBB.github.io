@@ -49,5 +49,47 @@ export const HEROES:Heroe[]=[
     img: "assets/img/wolverine.png",
     aparicion: "1974-11-01",
     casa: "Marvel"
+  },
+  {
+    nombre: "Bruja Escarlata",
+    bio: "Después de la trágica muerte de su hija, Anya, en un incendio provocado por una multitud antimutante, Magneto utilizó sus poderes y exterminó a toda la multitud ante la mirada horrorizada de su esposa, Magda, la cual huyó de su marido hacia la pequeña Nación de Transia en los Montes Balcanes, estando ya embarazada de mellizos. Magda dio a luz en la Montaña Wundagore a los mellizos Wanda y Pietro. Ese día, el dios antiguo caído conocido como Chton le infundió a la recién nacida Wanda un gran potencial mágico además de sus habilidades mutantes. Magda murió luego del parto.",
+    img: "assets/img/BrujaEscarlata.jpg",
+    aparicion: "1964",
+    casa: "Marvel-03"
+  },
+  {
+    nombre: "Black widow",
+    bio: "es una agente rusa entrenada como espía, artista marcial y francotiradora, y equipada con un arsenal de armas de alta tecnología, que incluye un par de armas energéticas montadas en la muñeca y apodada Piquete de la Viuda. No usa traje durante sus primeras apariciones, sino simplemente ropa de noche y un velo. ",
+    img: "assets/img/BlackWidow.jpg",
+    aparicion: "1964-04",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Catwoman",
+    bio: " Se compró un traje de gato usando todos sus ahorros y volvió a su profesión de ladrona con su traje nuevo y sus nuevas capacidades. Cuando ella estaba tratando de robar en una tienda fue detenida por un grupo de guardias de seguridad y uno de ellos la llamó Catwoman. A Selina le encantó el nombre y, por tanto, así nació Catwoman.",
+    img: "assets/img/Catwoman.png",
+    aparicion: "1940-06",
+    casa: "DC"
+  },
+  {
+    nombre: "Doctor Strange",
+    bio: "Después de convertirse en uno de los alumnos del Hechicero Supremo, se convierte en un practicante tanto de las artes místicas como de las artes marciales. Además de conocer muchos hechizos poderosos, tiene un traje con dos objetos místicos: la Capa de Levitación y el Ojo de Agamotto, que le otorgan poderes adicionales.",
+    img: "assets/img/DoctorStrange.png",
+    aparicion: "1963-07",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Supergirl",
+    bio: "posee una fuerza, velocidad y resistencia sobrehumanas virtualmente ilimitadas; invulnerabilidad; vuelo; súper aliento, congelar la respiración; Visión de rayos X; visión telescópica y microscópica; visión de calor; y super audiencia. Kara no puede ser dañada por la fuerza física sola y ha soportado el colapso de los universos. Ella es susceptible a la magia y la kryptonita. Su visión de calor puede superar el calor del sol y puede reaccionar, moverse y esquivar más rápido que la velocidad de la luz.",
+    img: "assets/img/Supergirl.png",
+    aparicion: "1959-05",
+    casa: "DC"
+  },
+  {
+    nombre: "Mujer Maravilla",
+    bio: "Posee una gran fuerza que fácil rivaliza la de los Kriptonianos más poderosos (Superman, Supergirl) y posee una increíble inteligencia, pues ella tiene conocimiento de magia, ciencias, sabe más de 10 idiomas y es considerada una de los miembros más sabios e inteligentes de la Liga de la Justicia. Puede volar a grandes velocidades. Es vulnerable pero es considerada a un nivel de diosa por el resto de los superhéroes ya que no envejece, es inmortal, y posee una belleza extraordinaria. ",
+    img: "assets/img/WonderWoman.png",
+    aparicion: "1941-12",
+    casa: "DC"
   }
 ];
