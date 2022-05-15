@@ -7,6 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { VideoComponent } from './video/video.component';
 
+import { VillanosComponent } from './villanos/villanos.component';
+import { ComunidadComponent } from './comunidad/comunidad.component';
+
 import { UnheroeComponent } from './unheroe/unheroe.component';
 
 const routes: Routes = [
@@ -14,6 +17,8 @@ const routes: Routes = [
   {path: 'heroes', component: HeroesComponent},
   {path: 'about', component: AboutComponent},
   {path: 'video', component: VideoComponent},
+  {path: 'villanos', component: VillanosComponent},
+  {path: 'comunidad', component: ComunidadComponent},
 
   {path: 'heroe/:id', component: UnheroeComponent},
   {path: 'buscador/:nombreh', component: SearchComponent},

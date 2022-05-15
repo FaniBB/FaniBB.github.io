@@ -12,6 +12,11 @@ import { UnheroeComponent } from './unheroe/unheroe.component';
 import { VideoComponent } from './video/video.component';
 import { VillanosComponent } from './villanos/villanos.component';
 
+import { UsuarioService } from './shared/usuario.service';
+import { FormsModule } from '@angular/forms';
+import { ComunidadComponent } from './comunidad/comunidad.component';
+import { DomseguroPipe } from './domseguro.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,13 +27,17 @@ import { VillanosComponent } from './villanos/villanos.component';
     SearchComponent,
     UnheroeComponent,
     VideoComponent,
-    VillanosComponent
+    VillanosComponent,
+    ComunidadComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,    
+    
   ],
-  providers: [],
+  providers: [UsuarioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

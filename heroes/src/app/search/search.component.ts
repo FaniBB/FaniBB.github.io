@@ -5,6 +5,8 @@ import { ActivatedRoute } from '@angular/router';
 import { Heroe } from '../heroe';
 
 import { HeroeService } from '../shared/heroe.service';
+import { VillanoService } from '../shared/villano.service';
+import { Villano } from '../villano';
 
 @Component({
   selector: 'app-search',
@@ -15,6 +17,7 @@ export class SearchComponent implements OnInit {
 
   nombreh: string="";
   indice: number=0;
+
   miheroe: Heroe={
     nombre: "",
     bio: "",
@@ -22,8 +25,8 @@ export class SearchComponent implements OnInit {
     aparicion: "",
     casa: ""
   };
-
-  constructor( private heroeService: HeroeService, private activatedRoute: ActivatedRoute) {
+ 
+  constructor( private heroeService: HeroeService, private activatedRoute: ActivatedRoute, private villanoService: VillanoService) {
 
     this.activatedRoute.params.subscribe(params => {
       this.nombreh = params['nombreh'];
@@ -34,6 +37,8 @@ export class SearchComponent implements OnInit {
         this.miheroe = this.heroeService.getUnHeroe(this.indice);
       }
     });
+
+
    }
 
   ngOnInit(): void {
