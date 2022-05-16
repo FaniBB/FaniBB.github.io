@@ -25,7 +25,15 @@ export class SearchComponent implements OnInit {
     aparicion: "",
     casa: ""
   };
- 
+  //Aber si sirve
+  nombrev: string = "";
+  mivillano: Villano={
+    nombre: "",
+    bio: "",
+    img: "",
+    casa: ""
+  }
+
   constructor( private heroeService: HeroeService, private activatedRoute: ActivatedRoute, private villanoService: VillanoService) {
 
     this.activatedRoute.params.subscribe(params => {
@@ -36,9 +44,17 @@ export class SearchComponent implements OnInit {
       if (this.indice != -1){
         this.miheroe = this.heroeService.getUnHeroe(this.indice);
       }
+      if(this.indice == -1){
+        console.log(this.nombreh);
+        
+        // Redireccionamiento
+        window.setTimeout(function(){
+          window.location.href = 'home';
+        },9000)
+
+      }
+
     });
-
-
    }
 
   ngOnInit(): void {
